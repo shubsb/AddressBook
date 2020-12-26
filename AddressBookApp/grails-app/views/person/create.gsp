@@ -16,11 +16,7 @@
 <link rel="stylesheet" href="/assets/mobile.css?compile=false" />
 <link rel="stylesheet" href="/assets/application.css?compile=false" />
 
-
-
-        <meta name="layout" content="main"/>
-
-
+<meta name="layout" content="main"/>
 
 </head>
 
