@@ -219,9 +219,3 @@ class PersonControllerSpec extends Specification implements ControllerUnitTest<P
         flash.message != null
     }
 }
-
-
-
-
-
-
