@@ -33,7 +33,7 @@
     <form action="/person/save" method="post" >
       <fieldset class="form">
 
-        <!First Name>
+        <%-- First Name --%>
         <div class='fieldcontain required'>
           <label for='fName'>First Name
             <span class='required-indicator'>*</span>
@@ -41,7 +41,7 @@
           <input type="text" name="fName" value="" required="" id="fName" />
         </div>
 
-        <!Last Name>
+        <%-- Last Name --%>
         <div class='fieldcontain required'>
           <label for='lName'>Last Name
             <span class='required-indicator'>*</span>
@@ -49,21 +49,21 @@
           <input type="text" name="lName" value="" required="" id="lName" />
         </div>
 
-        <!Address>
+        <%-- Address --%>
         <div class='fieldcontain required'>
           <label for='address'>Address
             <span class='required-indicator'>*</span>
           </label><input type="text" name="address" value="" required="" id="address" />
         </div>
 
-        <!City>
+        <%-- City --%>
         <div class='fieldcontain required'>
           <label for='city'>City
             <span class='required-indicator'>*</span>
           </label><input type="text" name="city" value="" required="" id="city" />
         </div>
 
-        <!Postal Code>
+        <%-- Postal Code --%>
         <div class='fieldcontain required'>
           <label for='postalCode'>Postal Code
             <span class='required-indicator'>*</span>
@@ -71,6 +71,8 @@
           <input type="text" name="postalCode" value="" required="" id="postalCode" />
         </div>
       </fieldset>
+
+      <%-- Create button --%>
       <fieldset class="buttons">
           <input type="submit" name="create" class="save" value="Create" id="create" />
       </fieldset>

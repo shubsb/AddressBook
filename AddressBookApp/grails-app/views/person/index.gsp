@@ -13,13 +13,17 @@
                 <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
             </ul>
         </div>
+
+        <%-- Creating list table for address book --%>
         <div id="list-person" class="content scaffold-list" role="main">
             <h1>List of Address</h1>
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
+
+            <%-- Displays the table with the right attributes --%>
             <f:table collection="${personList}" />
-  
+
             <div class="pagination">
                 <g:paginate total="${personCount ?: 0}" />
             </div>

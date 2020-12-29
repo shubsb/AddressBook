@@ -1,5 +1,9 @@
 package com.shub
 
+/**
+ * Person class maps the information requires onto a database table
+ *
+ */
 class Person {
   String fName
   String lName

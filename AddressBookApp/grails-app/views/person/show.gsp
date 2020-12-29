@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<%-- Display page of the contact and edit/delete page--%>
     <head>
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
