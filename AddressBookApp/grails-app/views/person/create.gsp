@@ -38,7 +38,7 @@
           <label for='fName'>First Name
             <span class='required-indicator'>*</span>
           </label>
-          <input type="text" name="fName" value="" required="" id="fName" />
+          <input type="text" name="fName" value="" id="fName" />
         </div>
 
         <%-- Last Name --%>
@@ -46,21 +46,21 @@
           <label for='lName'>Last Name
             <span class='required-indicator'>*</span>
           </label>
-          <input type="text" name="lName" value="" required="" id="lName" />
+          <input type="text" name="lName" value="" id="lName" />
         </div>
 
         <%-- Address --%>
         <div class='fieldcontain required'>
           <label for='address'>Address
             <span class='required-indicator'>*</span>
-          </label><input type="text" name="address" value="" required="" id="address" />
+          </label><input type="text" name="address" value="" id="address" />
         </div>
 
         <%-- City --%>
         <div class='fieldcontain required'>
           <label for='city'>City
             <span class='required-indicator'>*</span>
-          </label><input type="text" name="city" value="" required="" id="city" />
+          </label><input type="text" name="city" value=""  id="city" />
         </div>
 
         <%-- Postal Code --%>
@@ -68,7 +68,7 @@
           <label for='postalCode'>Postal Code
             <span class='required-indicator'>*</span>
           </label>
-          <input type="text" name="postalCode" value="" required="" id="postalCode" />
+          <input type="text" name="postalCode" value=""  id="postalCode" />
         </div>
       </fieldset>
 
