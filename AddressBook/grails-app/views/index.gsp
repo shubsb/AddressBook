@@ -5,7 +5,13 @@
     <title>Address Book</title>
 </head>
 <body>
-<h1>Welcome to Address Book</h1>
+
+<div class="book-text">
+    <h1 style="font-size: 50px; color: Black; font-family: cursive ">Welcome To Address Book</h1>
+    <span class="float-none">
+            <g:link url="/person/index" class="button-enter"><g:message code="Address.Book"/></g:link>
+    </span>
+</div>
 
 </body>
 </html>

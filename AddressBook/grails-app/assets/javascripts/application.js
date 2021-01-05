@@ -9,4 +9,5 @@
 //= require bootstrap
 //= require popper.min
 //= require addressBook
+//= require message.box
 //= require_self

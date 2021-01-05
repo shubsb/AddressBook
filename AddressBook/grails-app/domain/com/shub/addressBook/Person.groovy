@@ -1,5 +1,11 @@
 package com.shub.addressBook
 
+/**
+ * Person class maps the information requires onto a database table
+ *
+ *
+ */
+
 class Person {
 
     String firstName

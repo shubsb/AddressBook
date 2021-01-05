@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        <g:message code="person" args="['List Of']"/>
+        <h1 style="font-size: 20px">Contact List</h1>
 
         %{--Actions--}%
         <span class="float-right">
@@ -24,8 +24,9 @@
 
         %{-- Create and Reload--}%
         <div class="btn-group">
-            <g:link controller="person" action="create" class="btn btn-success"><g:message code="create"/></g:link>
-            <g:link controller="person" action="index" class="btn btn-primary"><g:message code="reload"/></g:link>
+            <g:link url="/" class="button"><i class="fas fa-home"></i></g:link>
+            <g:link controller="person" action="create" class="button"><g:message code="create"/></g:link>
+            <g:link controller="person" action="index" class="button-viewAll"><g:message code="view.all"/></g:link>
         </div>
         </span>
     </div>
@@ -34,7 +35,7 @@
     %{-- Table Panel --}%
     <div class="card-body">
         <table class="table table-bordered">
-            <thead class="thead-dark">
+            <thead class="thead-light">
             <tr>
                 <g:sortableColumn property="firstName" title="${g.message(code:"first.name")}"/>
                 <g:sortableColumn property="lastName" title="${g.message(code:"last.name")}"/>
@@ -58,9 +59,8 @@
                         %{-- Table Action --}%
                         <td>
                             <div class="btn-group">
-                                <g:link controller="person" action="details" class="btn btn-secondary" id="${info.id}"><i class="fas fa-eye"></i></g:link>
-                                <g:link controller="person" action="edit" class="btn btn-secondary" id="${info.id}"><i class="fas fa-edit"></i></g:link>
-                                <g:link controller="person" action="delete" id="${info.id}" class="btn btn-secondary delete-confirmation"><i class="fas fa-trash"></i></g:link>
+                                <g:link controller="person" action="edit" class="button-book" id="${info.id}"><i class="fas fa-edit"></i></g:link>
+                                <g:link controller="person" action="delete" id="${info.id}" class="button-book"><i class="fas fa-trash"></i></g:link>
                             </div>
                         </td>
                     </tr>
