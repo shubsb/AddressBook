@@ -8,7 +8,7 @@ Database: MySQL
 
 TO RUN:
 1) clone repo to pc 
-2) cd into AddressBookAPP
+2) cd into AddressBook
 3) Type grails in cmd
 4) Type run-app in cmd
 
